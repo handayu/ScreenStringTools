@@ -1,0 +1,35 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0028)http://www.deskperience.com/ -->
+<html>
+	<head>
+		<title>Language Tools</title><META HTTP-EQUIV="content-type" CONTENT="text/html;charset=UTF-8">
+	</head>
+
+	<body>
+		<form style = "display: none" name ="f" action="http://translate.google.com/translate_t" method="post">
+			<textarea name="text" rows="5" cols="45" wrap="PHYSICAL"></textarea>
+			<select name="langpair">
+				<option value="en|de">English to German</option>
+				<option value="en|es" selected>English to Spanish</option>
+				<option value="en|fr">English to French</option>
+				<option value="en|it">English to Italian</option>
+				<option value="en|pt">English to Portuguese</option>
+				<option value="de|en">German to English</option>
+				<option value="de|fr">German to French</option>
+				<option value="es|en">Spanish to English</option>
+				<option value="fr|en">French to English</option>
+				<option value="fr|de">French to German</option>
+				<option value="it|en">Italian to English</option>
+				<option value="pt|en">Portuguese to English</option>
+			</select>
+			<input type="hidden" name="hl" value="en">
+			<input type="hidden" name="ie" value="UTF-8">
+			<input type="hidden" name="oe" value="UTF-8">
+			<input type="submit" value="Translate">
+		</form>
+		<script for="window" event="onload" language="JScript">
+			f.text.value = "[_IWS_REPLACE_]";
+			f.submit();
+		</script>
+	</body>
+</html>

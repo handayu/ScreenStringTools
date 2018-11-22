@@ -1,0 +1,108 @@
+﻿<ITEMLIST>
+	<ITEM name="获取完全版本" id="0x800040">
+        <FONT FontSize="0" FontStyle="0x7" FontColor="0x0000CC"/>
+	</ITEM>
+
+	<FONT FontSize="0" FontStyle="0x7" FontColor="0x000000"/>
+	<ITEM name="添加文本到" id="0x0400">
+
+		<ICON name="Resources\Images\Notes.ico"/>
+	</ITEM>
+	<ITEMSGROUP name="进一步处理文本" id="0x1">
+		<ITEMSGROUP name="添加文本并打开笔记" id="0x0100">
+			<ITEM name="新建笔记..." id="0x10100"/>
+			<ITEM name="现有的笔记..." id="0x20100"/>
+			<ITEM name=""/>
+			<ITEM name="MRUFile" id="0x00040100"/>
+			<ITEM name="MRUFile" id="0x00080100"/>
+			<ITEM name="MRUFile" id="0x00100100"/>
+			<ITEM name="MRUFile" id="0x00200100"/>
+			<ITEM name="MRUFile" id="0x00400100"/>
+			<ITEM name="MRUFile" id="0x00800100"/>
+			<ITEM name="MRUFile" id="0x01000100"/>
+		</ITEMSGROUP>
+
+		<ICON name="Resources\Images\textcapture.ico"/>
+
+
+		<ITEM name="发送文本到搜索栏"  id="0x200001"/>
+
+
+
+		<ITEM name="作为纯文本编辑" id="0x10002">
+			<ICON name="Resources\Images\notepad.ico"/>
+			<PARAMFILE name="Resources\Files\PlainText.txt"/>
+		</ITEM>
+
+		<ITEM name="作为富文本编辑" id="0x20002">
+			<ICON name="Resources\Images\rich.ico"/>
+			<PARAMFILE name="Resources\Files\RichText.rtf"/>
+		</ITEM>
+
+
+		<ITEM name="电子邮件发送文本" id="0x80002">
+			 <ICON name="Resources\Images\email1.ico"/>
+		</ITEM>
+
+		<ITEM name="打印文本" id="0x100002">
+			 <ICON name="Resources\Images\Printer.ico"/>
+			<PARAMFILE name="Resources\Files\RichText.rtf"/>
+		</ITEM>
+
+		</ITEMSGROUP>
+		<ITEMSGROUP name="字体信息" id="0x8">
+			<ITEM name="Face" id="0x4">
+				<ICON name="Resources\Images\font.ico"/>
+			</ITEM>
+			<ITEM name="RGB" id="0x10008"/>
+			<ITEM name="run-time name" id="0x20008"/>
+			<ITEM name="run-time name" id="0x40008"/>
+		</ITEMSGROUP>
+		<ITEM name="" id="0x4"/>
+		<ITEMSGROUP name="点击的像素颜色" id="0x20">
+			<ITEM name="RGB" id="0x10020"/>
+			<ITEM name="run-time name" id="0x20020"/>
+			<ITEM name="run-time name" id="0x40020"/>
+		</ITEMSGROUP>
+
+	    <FONT FontSize="1" FontStyle="0x7" FontColor="0x000000"/>
+		<ICON name="Resources\Images\Image.ico"/>
+		<ITEMSGROUP name="预览图像" id="0x10">
+			<ICON name="Resources\Images\1_230.ico"/>
+
+			<ITEM name="run-time name" id="0x200010"/>
+
+		</ITEMSGROUP>
+
+		<ITEM name="复制图像到剪贴板" id="0x10010">
+			 <ICON name="Resources\Images\copymage.ico"/>
+		</ITEM>
+		<ITEM name="利用即时信息分享图片" id="0x2000010">
+		</ITEM>
+	    <ITEMSGROUP name="保存图像" id="0x1">
+		<ITEM name="使用默认名称" id="0x40010">
+			
+		</ITEM>
+		<ITEM name="图像另存为..." id="0x1000010">
+		</ITEM>
+	    </ITEMSGROUP>
+	    <ITEMSGROUP name="进一步处理图像" id="0x10">
+		<ITEM name="查看" id="0x800010">
+			  <ICON name="Resources\Images\external.ico"/>
+			<PARAMFILE name="Resources\Files\Image.bmp"/>
+		</ITEM>
+		<ITEM name="编辑" id="0x400010">
+			<ICON_ name="Resources\Images\Microsoft Paint.ico"/>
+			<ICON name="Resources\Images\paint.ico"/>
+			<PARAMFILE name="Resources\Files\Image.bmp"/>
+		</ITEM>
+		
+		<ITEM name="打印" id="0x20010">
+			<ICON name="Resources\Images\printimg.ico"/>
+			<PARAMFILE name="Resources\Files\Image.bmp"/>
+		</ITEM>
+	    </ITEMSGROUP>
+
+
+
+</ITEMLIST>

@@ -1,0 +1,79 @@
+﻿<ITEMLIST>
+	<ITEMSGROUP name="工具">
+                	<ICON name="Resources\Images\tools.ico"/>
+
+		<ITEM name="获取完全版本" id="0x800040"><ICON name="Resources\Images\buy.ico"/>
+	        	<FONT FontSize="1" FontStyle="0x7" FontColor="0x0000CC"/>
+		</ITEM>
+		<ITEM name="注册" id="0x1000040"><ICON name="Resources\Images\register.ico"/></ITEM>
+		<ITEMSGROUP name="查看笔记" id="0x0200">		
+			<FONT FontStyle="0x7"/>
+			<ITEM name="MRUFile" id="0x00040200"/>
+			<ITEM name="MRUFile" id="0x00080200"/>
+			<ITEM name="MRUFile" id="0x00100200"/>
+			<ITEM name="MRUFile" id="0x00200200"/>
+			<ITEM name="MRUFile" id="0x00400200"/>
+			<ITEM name="MRUFile" id="0x00800200"/>
+			<ITEM name="MRUFile" id="0x01000200"/>
+		</ITEMSGROUP>
+
+		<ITEM name="捕获助手..." id="0x2000040"><ICON name="Resources\Images\Guide.ico"/></ITEM>
+
+		<ITEMSGROUP name="管理我的搜索">
+			<ITEM name="添加自定义搜索..." id="0x80040">
+				<ICON name="Resources\Images\New.ico"/>
+			</ITEM>
+			<ITEM name="删除自定义搜索..." id="0x200040">
+				 <ICON name="Resources\Images\exit.ico"/>
+			</ITEM>
+			<ITEM name="编辑自定义搜索" id="0x40040">
+        	        		<ICON name="Resources\Images\edit.ico"/>
+			</ITEM>
+		</ITEMSGROUP>
+
+		<ITEM name="">
+		</ITEM>
+		<ITEMSGROUP name="帮助">		
+			<ITEM name="检查更新" id="0x100040">
+        	       		 <ICON name="Resources\Images\update.ico"/>
+			</ITEM>
+	                <ITEM name="帮助">
+        	                <ICON name="Resources\Images\help.ico"/>
+                        	<PARAMFILE name="aquahelp13.chm"/>
+			</ITEM>
+	                <ITEM name="联机帮助">
+        	                <ICON name="Resources\Images\help.ico"/>
+                        	<PARAMSTRING name="http://www.deskperience.com/guide.html"/>
+			</ITEM>
+	                <ITEM name="发送反馈">
+        	                <ICON name="Resources\Images\feedback.ico"/>
+                        	<PARAMSTRING name="http://www.deskperience.com/contact.html"/>
+			</ITEM>
+        	        <ITEM name="告诉朋友有关 Aqua">
+                	        <ICON name="Resources\Images\group.ico"/>
+	                        <PARAMSTRING name="mailto:?Subject=Check out this great application!&amp;body=Check out this great app.I'm sure you'll find it very useful.http://www.deskperience.com/aqua"/>
+			</ITEM>
+	                <ITEM name="请求支持...">
+	                        <PARAMSTRING name="mailto:support@deskperience.com?Subject=Request for support&amp;"/>
+			</ITEM>
+			<ITEM name="显示起始页">
+			<ICON name="Resources\Images\home.ico"/>
+                        	<PARAMSTRING name="http://www.deskperience.com/aqua/start131.html"/>
+			</ITEM>
+			<ITEM name=""/>
+			<ITEM name="关于(&amp;A)..." default="" id="0x20040" shortcut="alt+a">
+        	                <ICON name="Resources\Images\about.ico"/>
+				<FONT_ FontStyle="0x7"/>
+			</ITEM>
+		</ITEMSGROUP>
+                
+		<ITEM name=""/>
+		<ITEM name="设置(&amp;S)..." default="" id="0x400040" shortcut="alt+s">
+		<ICON name="Resources\Images\settings.ico"/>
+			<FONT FontStyle="0x7"/>
+		</ITEM>
+		<ITEM name="退出" id="0x10040">
+               		 <ICON name="Resources\Images\close.ico"/>
+		</ITEM>
+	</ITEMSGROUP>
+</ITEMLIST>

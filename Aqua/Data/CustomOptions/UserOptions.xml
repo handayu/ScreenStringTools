@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<ITEMLIST>
+	<ITEMSGROUP name="我的搜索" id="0x40">
+		<FONT FontStyle="0x1" FontSize="0" FontColor="0xA00000"/>
+		<ICON name="Resources\Images\Custom.ico"/>
+		<ITEM name="添加自定义搜索..." id="0x80040">
+			<ICON name="Resources\Images\New.ico"/>
+		</ITEM>
+		
+</ITEMSGROUP>
+</ITEMLIST>

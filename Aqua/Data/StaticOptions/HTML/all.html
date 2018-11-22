@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>Trial Version Header</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+.style2 {font-family: Arial, Helvetica, sans-serif; font-size: 14pt; color: #000000;}
+.style3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+.style5 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; font-weight: bold; }
+.style6 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+.style7 {color: #3463C3}
+.style8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12pt;
+	color: #3463C3;
+}
+.style9 {font-family: Arial, Helvetica, sans-serif}
+.style10 {font-family: Arial, Helvetica, sans-serif; font-size: 10pt; }
+-->
+</style>
+</head>
+
+<body scroll="no" onLoad="setDays();FirstTip();">
+
+
+<script language=javascript>
+var arTips = new Array(
+			"You can copy an entire table or only a column and export it to Word or Excel with 2 mouse clicks.",
+			"Right clicking on a word with <strong>Ctrl+Shift</strong> keys pressed automatically search this word with Google.",
+			"You can enhance<strong> Google Desktop Search</strong> by adding one-click word/phrase search from anywhere on the screen. See 'Add custom menu' wizard.",
+			"Get the entire text of an item in a listbox/tree by clicking on an empty area next to that item.",
+			"Grab the application error messages as plain text and send the bug report with just one click.",
+			"You can search MSDN using Google engine from your favorite source editor.",
+			"You can capture a screenshot and IM your buddy with few mouse clicks. See 'Graphic Capture | Send to IM' menu item.",
+			"Press Ctrl+Alt+F to capture a free form area of the screen.",
+			"Aqua automatically generates file names for captured screenshots so you can save them with one click. See 'Graphic Capture | Save <filename>' menu item.",
+			"Aqua allows you to append the captured text to the last used note with one click.",
+			"Create a custom menu to search your favorite site in 3 easy steps to have it always available for one click search. See 'Add custom menu wizard'.",
+			"You can license text capture and interactive selection to be used by 3rd party applications.",
+			"You can change Aqua default menu items by editing XML files. Click 'Start | Run' and type '%userprofile%\\Application Data\\Deskperience\\Aqua' (advanced users only).",
+			"When Aqua menu is displayed you can press the underlined letter to select the option.",
+			"You can perform aggregated search by choosing 'Advanced search' menu.",
+			"You can search faster; press Ctrl+Alt+M, type desired term(s) and press enter to search Google or click the search bar arrow to choose from Aqua menus.",
+			"You can customize the way Aqua search bar is displayed on the screen from the Settings dialog.",
+			"Aqua stays hidden in tray bar. Right click Aqua icon for additional options.",
+			"To copy to clipboard the color code of any pixel go to 'Graphic Capture | Pixel color' menu and click the desired color format."
+			);
+var nCrtTip = 0;
+
+function setDays()
+{
+	if (location.search != "") 
+	{ 
+		var theSearchPath = window.location.search.substring(1); 
+		var theNameValuePairs = theSearchPath.split('&'); 
+		var aNameValuePair, myVariable; 
+		for (var i = 0; i < theNameValuePairs.length; i++) 
+		{ 
+			aNameValuePair = theNameValuePairs[i].split('='); 
+			if (aNameValuePair[0] == 'days') 
+			{ 
+				var nDemoDays = parseInt(aNameValuePair[1]);
+				if(!isNaN(nDemoDays))
+				{
+						fieldDays.innerText = nDemoDays;
+				}
+			}
+		} 
+	}
+}
+function FirstTip()
+{
+	nCrtTip = Math.floor(Math.random() * arTips.length);
+	fieldTip.innerHTML = arTips[nCrtTip];
+}
+
+function NextTip()
+{
+	nCrtTip = (nCrtTip + 1)% arTips.length;
+	fieldTip.innerHTML = arTips[nCrtTip];
+}
+
+</script>
+
+<!-- start header -->
+<table width="100%"  border="0" cellpadding="0" cellspacing="0" bgcolor="#C1DBF2" ID="Table1">
+  <tr>
+    <td width="443" bgcolor="#85C1FF"><img src="images/header.jpg" width="443" height="56"></td>
+    <td width="332" bgcolor="#85C1FF">&nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" bgcolor="#FFFFFF" class="style2"><table width="100%"  border="0" cellspacing="4" cellpadding="4" ID="Table2">
+  <tr>
+    <td width="45%" height="52"><span class="style6"><a href="http://www.deskperience.com/aqua/tour/one.html" target=_blank><img src="images/taketour.gif" width="179" height="44" border="0" align="right"></a></span></td>
+    <td width="55%"><a href="http://www.deskperience.com/aqua/buy.html" target=_blank><img src="images/buynow.gif" border="0"></a></td>
+  </tr>
+</table></td>
+    <td bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+</table>
+<!-- end header -->
+
+<!-- start demo days -->
+<hr>
+<table width="465"  border="0" cellspacing="4" cellpadding="4" ID="Table4">
+  <tr>
+    <td><span class="style9"><span class="style10">You have &nbsp <b id="fieldDays" style="font-size:large"></b>&nbsp days left to enjoy full benefits of Aqua.</span></span></td>
+  </tr>
+  <tr>
+    <td><span class="style9"><span class="style10">After the trial expires you can use free version of Aqua with <a href="http://www.deskperience.com/aqua/aquafull.html" target=_blank>some limitations</a>.</span></span></td>
+  </tr>
+</table>
+<!-- end demo days -->
+
+<!-- start tips -->
+<hr>
+<table width="465"  border="0" cellspacing="4" cellpadding="4" ID="Table3">
+  <tr>
+    <td width="91%"><span class="style8">Do you know?</span></td>
+    <td width="9%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="style9"><span class="style10" id="fieldTip">You can copy a whole table or only a column and export it to Word or Excel with 2 mouse clicks.</span></span></td>
+    <td align="left" valign="middle"><a href="" onClick="javascript:NextTip(); return false;" ><img src="images/next.gif" width="50" height="36" border="0""></a></td>
+  </tr>
+</table>
+<p class="style1"><br>
+</p>
+
+<!-- end tips -->
+
+</body>
+</html>

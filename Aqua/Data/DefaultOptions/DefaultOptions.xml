@@ -1,0 +1,732 @@
+﻿<?xml version="1.0"?>
+<ITEMLIST>
+	<DATEUPDATED date = "5\5\2005"/>
+
+    <ITEM name="Google(&amp;G)" default="" shortcut="Alt+G">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\google.ico"/>
+	    <PARAMSTRING name="http://www.google.com/search?ie=UTF-8&amp;oe=UTF-8&amp;q=[_IWS_REPLACE_]"/>
+	</ITEM>
+      <ITEM name="Wikipedia(&amp;W)" shortcut="Alt+W">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\dictionary.ico"/>
+	    <PARAMSTRING name="http://www.wikipedia.org/search-redirect.php?search=[_IWS_REPLACE_]&amp;language=en"/>
+	</ITEM> 
+
+      <ITEM name="Dictionary(&amp;D)" shortcut="Alt+D">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\dictionary.ico"/>
+	    <PARAMSTRING name="http://en.wiktionary.org/wiki/Special:Search?search=[_IWS_REPLACE_]&amp;go=Define"/>
+	</ITEM> 
+        
+    <ITEMSGROUP name="更多站点...">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+			<ICON name = "Resources\Images\search.ICO"/>
+	<ITEM name="手气不错(&amp;I)!" shortcut="Alt+J">
+            <FONT FontSize="0" FontStyle="0x10" FontColor="0x29A400"/>
+	    <ICON name = "Resources\Images\homepage.ICO"/>
+	    <PARAMSTRING name="http://www.google.com/search?hl=en&amp;ie=UTF-8&amp;oe=UTF-8&amp;q=[_IWS_REPLACE_]&amp;btnI=I%27m+Feeling+Lucky"/>
+	</ITEM>
+  
+      <ITEM name="新闻(&amp;N)" shortcut="Alt+N">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\news.ICO"/>
+	    <PARAMSTRING name="http://news.search.yahoo.com/search/news/?c=&amp;p=[_IWS_REPLACE_]"/>
+	</ITEM> 
+	 <ITEM name="股市行情(&amp;Q)" shortcut="Alt+Q">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\chart.ico"/>
+	    <PARAMSTRING name="http://finance.yahoo.com/q?s=[_IWS_REPLACE_]"/>
+	</ITEM>
+	 <ITEM name="亚马逊(&amp;A)" shortcut="Alt+A">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\amazon.ico"/>
+	    <PARAMSTRING name="http://www.amazon.com/exec/obidos/external-search/002-8844224-1300014?mode=blended&amp;keyword=[_IWS_REPLACE_]&amp;tag=deskperience-20"/>
+	</ITEM>
+	<ITEM name="eBay(&amp;B)" shortcut="Alt+B">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	        <ICON name = "Resources\Images\ebay.ico"/>
+	    <PARAMSTRING name="http://search.ebay.com/[_IWS_REPLACE_]"/>
+	</ITEM>
+	<ITEM name="MSDN(&amp;M)" shortcut="Alt+M">
+            <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	       <ICON name = "Resources\Images\msdn.ICO"/>
+	    <PARAMSTRING name="http://www.google.com/search?q=[_IWS_REPLACE_]+site%3amsdn.microsoft.com&amp;ie=utf-8&amp;oe=utf-8&amp;hl=en&amp;btng=search%c4%83&amp;meta="/>
+	</ITEM> 			
+
+	
+    <ITEM name="">
+    </ITEM>
+     <ITEM name="拼写检查">
+	    <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+	    <ICON name = "Resources\Images\check.ico"/>
+	    <PARAMFILE name="Resources\Files\Spellcheck.html" encoding=";;javascript"/>
+     </ITEM>
+
+    <ITEMSGROUP name = "翻译">
+	    <FONT FontSize="0" FontStyle="0x0" FontColor="0xA00000"/>
+        <ICON name = "Resources\Images\translate.ICO"/>
+
+        <ITEMSGROUP name = " 英语为...">
+	    <ICON name = "Resources\Images\FLGUSA.ICO"/>
+
+            <ITEM name="德语">
+		        <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToGerman.html" encoding=";;javascript"/>
+		    </ITEM>
+
+	  	   <ITEM name="法语">
+		        <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		         <PARAMFILE name="Resources\Files\EnglishToFrench.html" encoding=";;javascript"/>
+		    </ITEM>
+
+            <ITEM name="西班牙语">
+		        <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToSpanish.html" encoding=";;javascript"/>
+		    </ITEM>
+
+            <ITEM name="意大利语">
+		        <ICON name = "Resources\Images\FLGITALY.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToItalian.html" encoding=";;javascript"/>
+	        </ITEM>
+
+    	    <ITEM name="荷兰语">
+		        <ICON name = "Resources\Images\FLGNETH.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToDutch.html" encoding=";;javascript"/>
+		    </ITEM> 
+      
+            <ITEM name="希腊语">
+		        <ICON name = "Resources\Images\FLGGR.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToGreek.html" encoding=";;javascript"/>
+		    </ITEM>
+
+            <ITEM name="葡萄牙语">
+		        <ICON name = "Resources\Images\FLGPORT.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToPortuguese.html" encoding=";;javascript"/>
+		    </ITEM>
+
+            <ITEM name="俄语">
+		        <ICON name = "Resources\Images\FLGRUS.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToRussian.html" encoding=";;javascript"/>
+		    </ITEM>
+		
+            <ITEM name="中文">
+		        <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToChinese.html" encoding=";;javascript"/>
+		    </ITEM>
+
+            <ITEM name="日语">
+		        <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToJapanese.html" encoding=";;javascript"/>
+		    </ITEM> 
+
+            <ITEM name="韩国语">
+		        <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+		        <PARAMFILE name="Resources\Files\EnglishToKorean.html" encoding=";;javascript"/>
+		    </ITEM>
+	</ITEMSGROUP>
+
+	<ITEMSGROUP name = " 法语为...">
+            <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+
+	    <ITEM name="英语">
+		   <ICON name = "Resources\Images\FLGUSA.ICO"/>
+		   <PARAMFILE name="Resources\Files\FrenchToEnglish.html" encoding=";;javascript"/>
+	        </ITEM>
+
+	    <ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\FrenchToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+
+	    <ITEM name="意大利语">
+		  <ICON name = "Resources\Images\FLGITALY.ICO"/>
+		  <PARAMFILE name="Resources\Files\FrenchToItalian.html" encoding=";;javascript"/>
+	        </ITEM>
+
+            <ITEM name="西班牙语">
+		  <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+		  <PARAMFILE name="Resources\Files\FrenchToSpanish.html" encoding=";;javascript"/>
+		</ITEM>
+
+            <ITEM name="葡萄牙语">
+		  <ICON name = "Resources\Images\FLGPORT.ICO"/>
+		  <PARAMFILE name="Resources\Files\FrenchToPortuguese.html" encoding=";;javascript"/>
+		</ITEM>
+
+	    <ITEM name="荷兰语">
+		   <ICON name = "Resources\Images\FLGNETH.ICO"/>
+		   <PARAMFILE name="Resources\Files\FrenchToDutch.html" encoding=";;javascript"/>
+		</ITEM>
+
+            <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+		    <PARAMFILE name="Resources\Files\FrenchToGreek.html" encoding=";;javascript"/>
+		</ITEM>
+
+	    <ITEM name="俄语">
+		    <ICON name = "Resources\Images\FLGRUS.ICO"/>
+		    <PARAMFILE name="Resources\Files\FrenchToRussian.html" encoding=";;javascript"/>
+		</ITEM>
+		
+	    <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+	            <PARAMFILE name="Resources\Files\FrenchToChinese.html" encoding=";;javascript"/>
+		</ITEM>
+
+            <ITEM name="日语">
+		    <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+		    <PARAMFILE name="Resources\Files\FrenchToJapanese.html" encoding=";;javascript"/>
+		</ITEM>
+
+            <ITEM name="韩国语">
+		    <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+		    <PARAMFILE name="Resources\Files\FrenchToKorean.html" encoding=";;javascript"/>
+		</ITEM>
+		  
+     </ITEMSGROUP>
+
+     <ITEMSGROUP name = " 德语为...">
+          <ICON name = "Resources\Images\FLGGERM.ICO"/>
+
+	  	<ITEM name="英语">
+		  <ICON name = "Resources\Images\FLGUSA.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToEnglish.html" encoding=";;javascript"/>
+		</ITEM>
+
+	 	<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToFrench.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="西班牙语">
+		  <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToSpanish.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="意大利语">
+		  <ICON name = "Resources\Images\FLGITALY.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToItalian.html" encoding=";;javascript"/>
+	        </ITEM>
+
+          <ITEM name="葡萄牙语">
+		  <ICON name = "Resources\Images\FLGPORT.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToPortuguese.html" encoding=";;javascript"/>
+	        </ITEM>
+
+          <ITEM name="中文">
+		  <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToChinese.html" encoding=";;javascript"/>
+	        </ITEM>
+
+          <ITEM name="日语">
+		  <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToJapanese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="韩国语">
+		  <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToKorean.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="荷兰语">
+		  <ICON name = "Resources\Images\FLGNETH.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToDutch.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="俄语">
+		  <ICON name = "Resources\Images\FLGRUS.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToRussian.html" encoding=";;javascript"/>
+		</ITEM>
+		 
+	  <ITEM name="希腊语">
+		  <ICON name = "Resources\Images\FLGGR.ICO"/>
+		  <PARAMFILE name="Resources\Files\GermanToGreek.html" encoding=";;javascript"/>
+		</ITEM>
+    </ITEMSGROUP>
+
+    <ITEMSGROUP name = " 西班牙语为...">
+        <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+
+        <ITEM name="英语">
+		  <ICON name = "Resources\Images\FLGUSA.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToEnglish.html" encoding=";;javascript"/>
+		</ITEM>
+
+	<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+
+	<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToFrench.html" encoding=";;javascript"/>
+		</ITEM>
+         
+        <ITEM name="意大利语">
+		  <ICON name = "Resources\Images\FLGITALY.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToItalian.html" encoding=";;javascript"/>
+	        </ITEM>
+
+        <ITEM name="葡萄牙语">
+		  <ICON name = "Resources\Images\FLGPORT.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToPortuguese.html" encoding=";;javascript"/>
+		</ITEM>
+
+        <ITEM name="中文">
+		  <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToChinese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="日语">
+		  <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToJapanese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="韩国语">
+		  <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToKorean.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="荷兰语">
+		  <ICON name = "Resources\Images\FLGNETH.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToDutch.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="俄语">
+		  <ICON name = "Resources\Images\FLGRUS.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToRussian.html" encoding=";;javascript"/>
+		</ITEM>
+		 
+	  <ITEM name="希腊语">
+		  <ICON name = "Resources\Images\FLGGR.ICO"/>
+		  <PARAMFILE name="Resources\Files\SpanishToGreek.html" encoding=";;javascript"/>
+		</ITEM>
+
+    </ITEMSGROUP>
+
+    <ITEMSGROUP name = " 意大利语为...">
+          <ICON name = "Resources\Images\FLGITALY.ICO"/>
+
+          <ITEM name="英语">
+		  <ICON name = "Resources\Images\FLGUSA.ICO"/>
+		  <PARAMFILE name="Resources\Files\ItalianToEnglish.html" encoding=";;javascript"/>
+	      </ITEM>
+
+	  <ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\ItalianToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\ItalianToFrench.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="西班牙语">
+		   <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToSpanish.html" encoding=";;javascript"/>
+		</ITEM>
+         
+          <ITEM name="葡萄牙语">
+		   <ICON name = "Resources\Images\FLGPORT.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToPortuguese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="中文">
+		   <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToChinese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="日语">
+		   <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToJapanese.html" encoding=";;javascript"/>
+		</ITEM>
+
+          <ITEM name="韩国语">
+		   <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToKorean.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="荷兰语">
+		   <ICON name = "Resources\Images\FLGNETH.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToDutch.html" encoding=";;javascript"/>
+		</ITEM>
+
+	  <ITEM name="俄语">
+		   <ICON name = "Resources\Images\FLGRUS.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToRussian.html" encoding=";;javascript"/>
+		</ITEM>
+		  
+	  <ITEM name="希腊语">
+		   <ICON name = "Resources\Images\FLGGR.ICO"/>
+		   <PARAMFILE name="Resources\Files\ItalianToGreek.html" encoding=";;javascript"/>
+		</ITEM>
+
+    </ITEMSGROUP>
+
+
+	 <ITEMSGROUP name = "葡萄牙语为...">
+         <ICON name = "Resources\Images\FLGPORT.ICO"/>
+                          <ITEM name="英语">
+			<ICON name = "Resources\Images\FLGUSA.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		   <PARAMFILE name="Resources\Files\PortugueseToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		   <PARAMFILE name="Resources\Files\PortugueseToFrench.html" encoding=";;javascript"/>
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToKorean.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		  
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			 <PARAMFILE name="Resources\Files\PortugueseToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>
+
+	 <ITEMSGROUP name = "荷兰语为...">
+              <ICON name = "Resources\Images\FLGNETH.ICO"/>
+                  <ITEM name="英语">
+		    <ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\DutchToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\DutchToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToKorean.html" encoding=";;javascript"/>
+		  </ITEM>
+		
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		  
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			<PARAMFILE name="Resources\Files\DutchToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>
+
+
+	 <ITEMSGROUP name = "希腊语为...">
+         <ICON name = "Resources\Images\FLGGR.ICO"/>
+	 <ITEM name="英语">
+		    <ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\GreekToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\GreekToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToKorean.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			<PARAMFILE name="Resources\Files\GreekToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		 
+		  
+	 </ITEMSGROUP>
+	 <ITEMSGROUP name = "俄语为...">
+         
+	  <ICON name = "Resources\Images\FLGRUS.ICO"/>
+	  <ITEM name="英语">
+			<ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\RussianToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		 <PARAMFILE name="Resources\Files\RussianToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToKorean.html" encoding=";;javascript"/>>
+		  </ITEM>
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  
+		 
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			<PARAMFILE name="Resources\Files\RussianToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>
+
+
+	 <ITEMSGROUP name = "中文为...">
+          <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+                  <ITEM name="英语">
+		    <ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		       <PARAMFILE name="Resources\Files\ChineseToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\ChineseToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToKorean.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		 
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			<PARAMFILE name="Resources\Files\ChineseToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>
+
+
+	 <ITEMSGROUP name = "日语为...">
+         <ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+                 <ITEM name="英语">
+			<ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\JapaneseToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\JapaneseToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+         
+          <ITEM name="韩国语">
+			<ICON name = "Resources\Images\FLGSKOR.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToKorean.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		  
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			<PARAMFILE name="Resources\Files\JapaneseToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>
+
+
+	 <ITEMSGROUP name = "韩国语为...">
+           <ICON name = "Resources\Images\FLGSKOR.ICO"/>
+            <ITEM name="英语">
+			<ICON name = "Resources\Images\FLGUSA.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToEnglish.html" encoding=";;javascript"/>
+		  </ITEM>
+
+		<ITEM name="德语">
+		  <ICON name = "Resources\Images\FLGGERM.ICO"/>
+		  <PARAMFILE name="Resources\Files\KoreanToGerman.html" encoding=";;javascript"/>
+		</ITEM>
+		<ITEM name="法语">
+		  <ICON name = "Resources\Images\FLGFRAN.ICO"/>
+		  <PARAMFILE name="Resources\Files\KoreanToFrench.html" encoding=";;javascript"/>
+			
+		</ITEM>
+          <ITEM name="西班牙语">
+		    <ICON name = "Resources\Images\FLGSPAIN.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToSpanish.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="意大利语">
+		    <ICON name = "Resources\Images\FLGITALY.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToItalian.html" encoding=";;javascript"/>
+	      </ITEM>
+          <ITEM name="葡萄牙语">
+			<ICON name = "Resources\Images\FLGPORT.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToPortuguese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="中文">
+		    <ICON name = "Resources\Images\FLGCHINA.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToChinese.html" encoding=";;javascript"/>
+		  </ITEM>
+          <ITEM name="日语">
+			<ICON name = "Resources\Images\FLGJAPAN.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToJapanese.html" encoding=";;javascript"/>
+		  </ITEM>
+         
+		  <ITEM name="荷兰语">
+		    <ICON name = "Resources\Images\FLGNETH.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToDutch.html" encoding=";;javascript"/>
+		  </ITEM>
+		  <ITEM name="俄语">
+			<ICON name = "Resources\Images\FLGRUS.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToRussian.html" encoding=";;javascript"/>
+		  </ITEM>
+		  
+		  <ITEM name="希腊语">
+		    <ICON name = "Resources\Images\FLGGR.ICO"/>
+			<PARAMFILE name="Resources\Files\KoreanToGreek.html" encoding=";;javascript"/>
+		  </ITEM>
+	 </ITEMSGROUP>            
+ </ITEMSGROUP>
+   </ITEMSGROUP>
+	
+</ITEMLIST>
